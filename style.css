@@ -32,6 +32,14 @@ a {
   border-bottom: 2px solid white;
 }
 
+.categories a{
+  color: #a8a8a8;
+}
+
+.categories a:hover{
+  color: white
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -116,7 +124,7 @@ header {
 .all-cards {
   display: flex;
   gap: 10px;
-  margin-top: 5px;
+  margin-top: px;
 }
 
 .card {
@@ -182,3 +190,44 @@ header {
   margin-top: 5px;
 }
 
+.lpo_btn{
+  border-radius: 5px;
+  background-color: #272727;
+  font-size: 12px;
+  padding: 7.5px 10px 7.5px 10px;
+  margin-right: 5px;
+}
+
+.lpo_btn:hover{
+  background-color: #545353;
+}
+
+.playlist_thumbnail{
+  height: 150px;
+  width: 175px;
+  padding: 5px 2.5px 0px 2.5px;
+  transition: 0.3s ease-in-out;
+}
+
+.playlist_thumbnail_img:hover{
+  opacity: 0.2;
+}
+
+.ind_post{
+  display: grid;
+  grid-template-columns: 1fr .5fr 8fr .5fr 1fr;
+  border: 1px solid rgba(198, 198, 198, 0.411);
+  width: 500px;
+  height: 420px;
+  border-radius: 10px;
+  padding: 25px 10px 10px 10px;
+  background-color: #0F0F0F;
+}
+
+.post_poll{
+  width: 300px;
+  border: 1px solid rgba(198, 198, 198, 0.838);
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 13px;
+}
